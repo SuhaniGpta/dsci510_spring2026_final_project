@@ -1,4 +1,3 @@
-This is a DSCI510 Spring 2026 final project
 # Sample Project : Resident Evil Requiem: Early Market Signals Analysis
 
 This project looks at the early launch performance of *Resident Evil Requiem* on Steam. The main goal is to understand how player engagement and public interest change during the first few weeks after release. I am using Google Trends data along with Steam data to see how search interest and player activity relate to each other.
