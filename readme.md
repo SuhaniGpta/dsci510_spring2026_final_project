@@ -18,10 +18,3 @@ I am using a few different data sources for this project:
 # Results
 
 Right now, I have successfully collected Google Trends data using Python. The next step is to bring in Steam data and start comparing how engagement changes over time. The goal is to identify early signals that show whether a game is performing well after launch.
-
-# Installation
-
-To run this project, install the required packages:
-
-```bash
-pip install -r requirements.txt
