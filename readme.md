@@ -1,6 +1,6 @@
 # Resident Evil Requiem: Early Market Signals Analysis
 
-This project looks at the early launch performance of *Resident Evil Requiem* on Steam. The main goal is to understand how player engagement and public interest change during the first few weeks after release. I am using Google Trends data along with Steam data to see how search interest and player activity relate to each other.
+This project analyzes the early launch performance of Resident Evil Requiem on Steam. The main goal is to understand how player engagement and public interest change during the first few weeks after release. I use Google Trends data along with Steam data to examine how search interest and player activity relate to each other and to compare these patterns with previous Resident Evil titles.
 
 # Data sources
 
