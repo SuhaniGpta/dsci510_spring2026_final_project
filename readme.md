@@ -37,3 +37,9 @@ So far, I have successfully collected and analyzed Google Trends data to examine
 I have also begun integrating Steam data, including review counts and ratings, to analyze player engagement and reception. Early comparisons suggest that while Resident Evil Requiem generates significant initial hype, older titles may show stronger long-term engagement.
 
 The project is currently focused on combining these data sources to better understand how public attention and player activity evolve over time. The goal is to identify early signals that indicate how well a game is performing shortly after launch.
+
+# AI Usage
+
+This project was developed with assistance from generative AI tools, including ChatGPT (OpenAI) and Google Gemini. As a beginner in Python and data analysis, I used these tools to help understand how the code works, structure the project, and implement certain components such as data collection and analysis.
+
+AI was primarily used as a learning aid to support understanding of concepts and to guide development. All AI-generated code sections are clearly labeled in the source files with the comment # AI generated:. Please know I tried my best to understand everything within this project!
