@@ -4,13 +4,12 @@ import os
 from src.data_collection import get_trends_data, get_steam_app_details, get_steam_review_summary
 from src.config import GAME_IDS, RESULTS_DIR
 
-
 # AI Generated:
 # Learned and Understood by Creator:
 
 def run_analysis_pipeline():
     os.makedirs(RESULTS_DIR, exist_ok=True)
-    
+
     data = get_trends_data()
     games = [col for col in data.columns if col != "isPartial"]
 
@@ -71,4 +70,18 @@ def run_analysis_pipeline():
     plt.ylabel("Total Count")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig(f"{RESULTS_DIR}/steam_reviews_comparison
+    plt.savefig(f"{RESULTS_DIR}/steam_reviews_comparison.png")
+    plt.clf()
+
+    steam_df.set_index("Game")["Positive_Percentage"].plot(kind="bar", color='green')
+    plt.title("Steam Positive Review %")
+    plt.ylabel("Percentage")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig(f"{RESULTS_DIR}/steam_positive_percent.png")
+    plt.clf()
+
+    print(f"\nPipeline complete. Results saved to the '{RESULTS_DIR}/' folder.")
+
+if __name__ == "__main__":
+    run_analysis_pipeline()
