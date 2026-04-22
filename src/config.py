@@ -8,5 +8,6 @@ GAME_IDS = {
     "Resident Evil 4": 2050650,
     "Resident Evil 2": 883710,
     "Resident Evil 3": 952060
-  
-  RESULTS_DIR = "results"
+}
+
+RESULTS_DIR = "results"
