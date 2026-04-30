@@ -4,8 +4,8 @@ import os
 from src.data_collection import get_trends_data, get_steam_app_details, get_steam_review_summary
 from src.config import GAME_IDS, RESULTS_DIR
 
-# AI Generated:
-# Learned and Understood by Creator:
+# AI generated:
+# Learned and understood by creator.
 
 def run_analysis_pipeline():
     os.makedirs(RESULTS_DIR, exist_ok=True)
