@@ -32,11 +32,11 @@ Key analysis includes:
 
 # Results
 
-So far, I have successfully collected and analyzed Google Trends data to examine early public interest in Resident Evil Requiem. The data shows a clear spike in search interest around the game’s release, indicating strong initial attention.
+The results show that Resident Evil Requiem generates the strongest initial spike in search interest, indicating high early public attention at launch. However, older titles such as Resident Evil 2 and Resident Evil 4 demonstrate higher average search interest and greater total review counts, suggesting stronger sustained engagement over time.
 
-I have also begun integrating Steam data, including review counts and ratings, to analyze player engagement and reception. Early comparisons suggest that while Resident Evil Requiem generates significant initial hype, older titles may show stronger long-term engagement.
+Additionally, all games maintain high positive review percentages, indicating strong overall player satisfaction across the franchise. While Requiem shows strong early engagement for a newly released game, it has not yet reached the long-term engagement levels of older titles.
 
-The project is currently focused on combining these data sources to better understand how public attention and player activity evolve over time. The goal is to identify early signals that indicate how well a game is performing shortly after launch.
+Overall, the analysis highlights a key insight: early hype does not necessarily translate into sustained player engagement. By combining Google Trends and Steam data, this project provides a more complete understanding of early game performance.
 
 # AI Usage
 
