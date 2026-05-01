@@ -1,8 +1,6 @@
-.env
-.venv/
-venv/
-data/
-results/
 __pycache__/
-*.pyc
+.env
+*.csv
+*.json
+*.db
 .DS_Store
