@@ -6,7 +6,6 @@ from src.config import GAME_IDS, RESULTS_DIR
 
 # AI generated:
 # Learned and understood by creator.
-
 def run_analysis_pipeline():
     os.makedirs(RESULTS_DIR, exist_ok=True)
 
