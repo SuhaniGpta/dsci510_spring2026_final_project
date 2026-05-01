@@ -2,8 +2,8 @@ from pytrends.request import TrendReq
 from src.config import TRENDS_KEYWORDS, TRENDS_TIMEFRAME
 import requests
 
-# AI Generated:
-# Learned and Understood by Creator:
+# AI generated:
+# Learned and understood by creator.
 
 def get_trends_data():
     pytrends = TrendReq()
