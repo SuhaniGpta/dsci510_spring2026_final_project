@@ -1,7 +1,8 @@
 TRENDS_KEYWORDS = ["Resident Evil Requiem", "Resident Evil Village", "Resident Evil 4", "Resident Evil 2", "Resident Evil 3"]
 TRENDS_TIMEFRAME = "today 3-m"
 
-# AI Generated:
+# AI generated:
+# Learned and understood by creator.
 GAME_IDS = {
     "Resident Evil Requiem": 3764200,
     "Resident Evil Village": 1196590,
