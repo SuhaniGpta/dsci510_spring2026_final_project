@@ -6,14 +6,13 @@ This project analyzes the early launch performance of Resident Evil Requiem on S
 
 I am using a few different data sources for this project:
 
-- **Google Trends (API using pytrends)**  
-  This gives search interest over time for *Resident Evil Requiem*. It helps show how public interest changes.
+## Data Sources
 
-- **Steam User Reviews**  
-  This includes review text, dates, playtime, and helpful votes. This will be used to understand player engagement and reactions.
-
-- **Steam Web API / Game Metadata**  
-  This includes information like release date, price, tags, and review counts. This helps compare the game with previous Resident Evil titles and other AAA games.
+| Source | Description | Data Used |
+|-------|------------|----------|
+| Google Trends (pytrends API) | Provides search interest over time | Search interest, trends |
+| Steam Reviews | Provides user engagement data | Total reviews, positive/negative reviews, ratings |
+| Steam Web API / Metadata | Provides game details | Release date, recommendations, review counts |
 
 ## Analysis
 The project compares five Resident Evil titles:
@@ -37,6 +36,18 @@ The results show that Resident Evil Requiem generates the strongest initial spik
 Additionally, all games maintain high positive review percentages, indicating strong overall player satisfaction across the franchise. While Requiem shows strong early engagement for a newly released game, it has not yet reached the long-term engagement levels of older titles.
 
 Overall, the analysis highlights a key insight: early hype does not necessarily translate into sustained player engagement. By combining Google Trends and Steam data, this project provides a more complete understanding of early game performance.
+
+## How to Run
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Run the main pipeline:
+python src/main.py
+
+3. Open results.ipynb to view analysis and visualizations.
+
+The code automatically fetches data from Google Trends and the Steam API.
 
 # AI Usage
 
