@@ -1,8 +1,8 @@
 from src.data_collection import get_trends_data
 from src.config import TRENDS_KEYWORDS
 
-# AI Generated:
-# Learned and Understood by Creator:
+# AI generated:
+# Learned and understood by creator.
 
 def test_trends_data():
     data = get_trends_data()
