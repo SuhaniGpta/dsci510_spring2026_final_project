@@ -47,7 +47,7 @@ python src/main.py
 
 3. Open results.ipynb to view analysis and visualizations.
 
-The code automatically fetches data from Google Trends and the Steam API.
+The code automatically fetches data from Google Trends (via pytrends) and the Steam API, so no manual data download is required.
 
 # AI Usage
 
