@@ -34,6 +34,15 @@ def run_analysis_pipeline():
     plt.tight_layout()
     plt.savefig(f"{RESULTS_DIR}/peak_comparison.png")
     plt.clf()
+    
+    avg_values = data[games].head(14).mean()
+    avg_values.plot(kind="bar")
+    plt.title("Average Early Search Interest (First 2 Weeks)")
+    plt.ylabel("Average Search Interest")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig(f"{RESULTS_DIR}/early_interest.png")
+    plt.clf()
 
     print("\nFetching Steam API data...")
     steam_rows = []
