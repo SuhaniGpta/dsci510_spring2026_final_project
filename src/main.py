@@ -34,7 +34,8 @@ def run_analysis_pipeline():
     plt.tight_layout()
     plt.savefig(f"{RESULTS_DIR}/peak_comparison.png")
     plt.clf()
-    
+    # AI generated:
+    # Learned and understood by creator.
     avg_values = data[games].head(14).mean()
     avg_values.plot(kind="bar")
     plt.title("Average Early Search Interest (First 2 Weeks)")
